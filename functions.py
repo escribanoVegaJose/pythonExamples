@@ -1,6 +1,7 @@
 # FUNCIONES
 # ¿Qué es una función y para qué sirve?, normas de un código limpio
-# Estructura de una función, parámetros de entrada y salida 
+# Estructura de una función, parámetros de entrada y # estructura -> def def def def  nombre_función (parámetro 1, parámetro 2)
+
 # Ejemplo de las diferentes combinaciones
 itemsAvailableList= ["sartén", "hacha", "ruedas", "té"]
 
@@ -20,6 +21,7 @@ def requestUsername(username):
 def isAvailable (item):
   return item in itemsAvailableList
   
+# main
 welcomeMessage()
 userName = input()
 requestUsername(userName)
@@ -27,6 +29,6 @@ print("por favor, introduzca el producto que desea comprobar: ")
 userBuy= input()
 print (isAvailable(userBuy))
 
-# estructura -> def nombre_función (parámetro 1, parámetro 2)
+
 
  
